@@ -19,5 +19,6 @@ The whole system running in C/S arch and synchronize in RPC mode. When the serve
  * 6. register directory watch service
  
 # Running
-Running server: java -jar syncserver.jar -f [folder on server side] -p [port]
-Running client: java -jar syncclient.jar -f [folder on client side] -h [server ip address] -p [port on server]
+- Running server: java -jar syncserver.jar -f [folder on server side] -p [port]
+
+- Running client: java -jar syncclient.jar -f [folder on client side] -h [server ip address] -p [port on server]
